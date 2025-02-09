@@ -1,6 +1,6 @@
 'use client';
 
-import ecdh from 'ecdh';
+import * as ecdh from '@/app/libs/crypto/ecdh/index';
 import { create } from 'zustand';
 import { devtools } from 'zustand/middleware';
 import { immer } from 'zustand/middleware/immer';
