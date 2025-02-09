@@ -1,0 +1,23 @@
+No,Pesan,Ciphertext,Avalanche Effect
+1,cat,da ac dc d2 f7 72 00 f9 3e d1 6e bf 45 a5 6e f8 ,99.625
+1,bat,a7 7e 7c 06 c2 2b ad 5c eb 06 ad 52 97 b1 32 a8 ,
+2,hello,ee 3a 6d 9c 27 ac 52 89 20 75 31 f4 7c bc 39 e8 ,99.6875
+2,hallo,e1 c6 76 a3 db 05 6e 9c ea 45 f1 df a3 98 e4 5c ,
+3,testing,6f 26 7b 9e 4b 03 2f 83 72 ad 17 9b 97 16 c8 53 ,99.9375
+3,tasting,9e 45 ee fc b3 01 ab ae 74 25 28 35 e4 fc 4d e0 ,
+4,abcdefgh,dd ff 65 34 cd aa c8 70 a4 2e 56 78 8c 1c 07 4f ,99.3125
+4,abcdefgH,48 fd 61 dd 44 2b c3 35 83 6c 3b 19 78 3f 25 ee ,
+5,1234567890,1b 38 78 38 22 60 e8 60 8e 75 8a 3d cc 6a 13 e2 ,99.6875
+5,1234567891,2e 2d 19 55 3d db d9 1c 76 d7 03 3f 1c 6d d4 a0 ,
+6,lorem ipsum dolor,71 52 95 6a 5c 6c 4c 7a 83 92 78 1d 5f d0 f9 a9 28 e7 52 f1 67 fc cf f4 80 fc b9 91 f0 e8 23 e7 ,49.90625
+6,lorem ipsum dolot,71 52 95 6a 5c 6c 4c 7a 83 92 78 1d 5f d0 f9 a9 56 0a 85 5c 32 e5 41 b8 8d c8 64 e9 ab 68 ea f1 ,
+7,AES-256 encryption,c0 79 4a d8 b2 7d 2b c4 4c 9f d0 4f d2 e2 fd 4d fd f1 d1 c6 9c a3 dd b4 9e df fa d1 80 fd 17 38 ,49.78125
+7,AES-256 encryptiom,c0 79 4a d8 b2 7d 2b c4 4c 9f d0 4f d2 e2 fd 4d 1c e9 3c d8 74 d8 8a ff 40 cf 06 eb aa 2a 39 cb ,
+8,avalanche effect test,38 ae 3d e5 f7 4b 3f 51 44 fe 19 e3 ae 2a e6 f5 76 b8 24 7d f2 91 d4 fe 05 40 42 59 0e 24 65 8e ,49.8125
+8,avalanche effect tast,38 ae 3d e5 f7 4b 3f 51 44 fe 19 e3 ae 2a e6 f5 b7 68 fa b3 f8 24 e4 2e 0e 4a 7f a3 fc 0b cb b7 ,
+9,secure data transmission,8e 9e 39 82 db bc 2c ef ad bc 31 01 64 f6 19 a4 fa 03 4e ca 3b 5d a9 c1 ea 38 75 a4 c8 a7 25 dd ,49.75
+9,secure data transmissiom,8e 9e 39 82 db bc 2c ef ad bc 31 01 64 f6 19 a4 04 c0 3e a3 e1 87 72 fa 5b 6f 88 31 6e 52 1b da ,
+10,end-to-end encryption is key,69 42 56 3d d4 58 1b fc c0 dd 69 cd ed 95 58 76 c1 e2 30 a3 4f 1b 60 da 6f 5b 02 d4 03 aa 4c d1 ,49.875
+10,end-to-end encryption is kez,69 42 56 3d d4 58 1b fc c0 dd 69 cd ed 95 58 76 f2 fc 63 08 86 69 7f 6e 54 33 41 c3 93 19 75 b7 ,
+11,with emoji 😭,ce 7a 8d 89 cf bd 97 b8 79 de b6 5e b4 79 ef 84 ,99.625
+11,with emoji 🤣,a9 3e 37 2f 53 51 30 43 05 cf 90 eb ac 02 96 fc ,

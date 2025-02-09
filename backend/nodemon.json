@@ -1,0 +1,4 @@
+{
+    "exec": "tsx ./src/index.ts",
+    "ext": "js,mjs,cjs,json,ts"
+}

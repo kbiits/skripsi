@@ -1,0 +1,89 @@
+name: CI/CD Frontend
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'frontend/**'
+      - '.github/workflows/frontend.yml'
+  workflow_dispatch:
+
+jobs:
+  CI-CD:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9.12.2
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22.9.0
+          cache: 'pnpm'
+          cache-dependency-path: ./frontend/pnpm-lock.yaml
+
+      - name: Install dependencies
+        run: pnpm install
+        working-directory: ./frontend
+
+      - name: Expose pnpm config(s) through "$GITHUB_OUTPUT"
+        id: pnpm-config
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+
+      # https://nextjs.org/docs/pages/building-your-application/deploying/ci-build-caching#github-actions
+      - name: Cache Next.js build
+        uses: actions/cache@v4
+        with:
+          path: |
+            ${{ steps.pnpm-config.outputs.STORE_PATH }}
+            ${{ github.workspace }}/frontend/.next/cache
+          # Generate a new cache whenever packages or source files change.
+          key: ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}-${{ hashFiles('**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx') }}
+          # If source files changed but packages didn’t, rebuild from a prior cache.
+          restore-keys: |
+            ${{ runner.os }}-nextjs-${{ hashFiles('**/pnpm-lock.yaml') }}-
+
+      - name: Build the Next.js app
+        run: cp .env.example .env && pnpm build
+        working-directory: ./frontend
+
+      - name: Move the standalone build output to a folder named 'build-output'
+        run: mv .next/standalone build-output
+        working-directory: ./frontend
+
+      - name: Move static assets and deploy scripts to the build output (since we’re not using CDN yet)
+        run: |
+          mv public build-output/ &&
+          mv .next/static build-output/.next/
+        working-directory: ./frontend
+
+      - name: rsync to EC2 instance
+        uses: burnett01/rsync-deployments@5.1
+        with:
+          switches: -avz --delete --exclude='.env'
+          path: frontend/build-output/
+          remote_path: /root/app/skripsi/frontend
+          remote_host: ${{ secrets.VPS_IP }}
+          remote_user: root
+          remote_port: ${{ secrets.VPS_SSH_PORT }}
+          remote_key: ${{ secrets.VPS_ACCESS_PRIVATE_KEY }}
+
+      - name: Run the deploy script
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_IP }}
+          port: ${{ secrets.VPS_SSH_PORT }}
+          username: root
+          key: ${{ secrets.VPS_ACCESS_PRIVATE_KEY }}
+          script: |
+            sudo chown -R root:root /root/app/skripsi &&
+            cp /root/app/skripsi/.env.fe /root/app/skripsi/frontend/.env
+            systemctl restart skripsi

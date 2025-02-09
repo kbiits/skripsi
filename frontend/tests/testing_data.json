@@ -1,0 +1,60 @@
+{
+    "avalanche_effects": [
+        {
+            "message_1": "cat",
+            "message_2": "bat"
+        },
+        {
+            "message_1": "hello",
+            "message_2": "hallo"
+        },
+        {
+            "message_1": "testing",
+            "message_2": "tasting"
+        },
+        {
+            "message_1": "abcdefgh",
+            "message_2": "abcdefgH"
+        },
+        {
+            "message_1": "1234567890",
+            "message_2": "1234567891"
+        },
+        {
+            "message_1": "lorem ipsum dolor",
+            "message_2": "lorem ipsum dolot"
+        },
+        {
+            "message_1": "AES-256 encryption",
+            "message_2": "AES-256 encryptiom"
+        },
+        {
+            "message_1": "avalanche effect test",
+            "message_2": "avalanche effect tast"
+        },
+        {
+            "message_1": "secure data transmission",
+            "message_2": "secure data transmissiom"
+        },
+        {
+            "message_1": "end-to-end encryption is key",
+            "message_2": "end-to-end encryption is kez"
+        },
+        {
+            "message_1": "with emoji 😭",
+            "message_2": "with emoji 🤣"
+        }
+    ],
+    "timeCalculation": [
+        "Maeceanastumidst",
+        "Sed perpiciatis unde",
+        "Voluptatem acusantium dolorque",
+        "Nem enim ipsam voluptatem quias voluptas",
+        "In reprehenderit voluptate vellit esse cillum dolo",
+        "Ut enim ad minima veniam, quihs nostrum exercitationem ullam",
+        "Labori nisi ut aliquip ex ea commodo consequat. Duis aute irures dolor",
+        "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui offic deserunt",
+        "Mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem",
+        "Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et"
+    ]
+}

@@ -1,0 +1,351 @@
+No;Pesan;Ciphertext;Avalanche Effect
+1;Hello world!;09 6e fd cf bf b9 41 cf 13 ee 4d c0 71 6b 94 bc ;99.5625
+1;Hello world?;1f 9c ea 9d 7f 15 32 03 13 30 e1 31 d6 30 ac 32 ;
+2;How are you?;ac 8e 1f 1c a1 3c 52 7d c8 f9 62 71 90 c6 c6 30 ;99.5
+2;How are you!;96 94 2e ba 95 54 48 26 85 f0 39 5e 13 36 8f 5e ;
+3;This is a test.;a4 99 e9 b4 0d 6e 79 d7 ce c3 4f 9f fa 0c b6 78 ;99.625
+3;This is a test!;0f d5 98 70 9d d1 2c 26 80 29 21 96 61 ed 00 ac ;
+4;I love coding.;fd e0 29 56 91 e0 e5 a5 91 95 c3 54 c3 09 5e 3d ;99.4375
+4;I love coding!;ef 9a 86 3e 54 bf 0c 5b 61 86 a5 c1 6d 7b 67 b3 ;
+5;Let's go hiking.;19 b3 5d 51 a2 a9 b6 1d c8 b1 e6 7b e0 e6 57 a5 52 fd 5e b8 a6 78 d3 7d a4 09 d3 b8 75 64 b1 cd ;99.53125
+5;Let's go hiking!;73 f7 a0 3a a0 88 93 c3 a0 87 98 c9 84 4b ec ec 57 82 fa bd 73 80 ec c9 fd ef fb bc 44 c5 04 ff ;
+6;What's your name?;4e ce 42 aa 08 a0 df 96 4d fd 05 bd ed 14 bd a6 10 df bc fd 7a 9c 8e 8d 11 65 04 b9 6b 5d 69 b3 ;49.9375
+6;What's your name!;4e ce 42 aa 08 a0 df 96 4d fd 05 bd ed 14 bd a6 3d 03 07 c3 7d 77 80 03 9d 61 06 48 b0 2e 9e 5d ;
+7;It's a sunny day.;8b 7f d0 44 30 8b 12 78 00 5b 5c 6f b2 4c b4 20 0f cb 95 03 90 21 36 4e 95 66 f7 fd 07 d6 2e 0e ;49.84375
+7;It's a sunny day!;8b 7f d0 44 30 8b 12 78 00 5b 5c 6f b2 4c b4 20 11 c4 1c 96 c4 5e 9e 8b 6d 25 ea 05 3f 2b f8 d4 ;
+8;Do you like pizza?;5f 54 8b b9 d7 ac 90 f9 6c 7e a0 79 20 31 07 20 2b 1b 00 97 b5 0a 0b d3 1b 02 9c a5 00 6f 47 64 ;49.625
+8;Do you like pizza!;5f 54 8b b9 d7 ac 90 f9 6c 7e a0 79 20 31 07 20 fc 49 83 eb 4c be 50 11 35 e6 24 44 f0 73 8d 50 ;
+9;I enjoy reading.;52 2d fa d1 8b f9 8f 42 23 fb 6b f3 68 60 f3 4e ec 54 07 63 2e d2 1d 79 05 6e 93 08 32 63 62 0c ;99.59375
+9;I enjoy reading!;61 c4 0a fe 49 41 e4 8b 8f 2b 78 41 cb b8 c0 e6 5a f1 c0 18 3d 7b 70 fb dd fe f6 ce 85 f4 d0 7d ;
+10;Let's watch a movie.;fd ae 2a 7f 54 74 a6 fd f8 a9 57 32 aa 83 61 18 cb 44 35 ba 10 4f 9d 20 66 79 60 75 5c 79 92 8d ;49.90625
+10;Let's watch a movie!;fd ae 2a 7f 54 74 a6 fd f8 a9 57 32 aa 83 61 18 c2 01 a4 0b 76 87 da 73 41 ad 3b f5 37 82 29 64 ;
+11;Let's go climbing.;7c c8 e8 1f 7d 10 6c f7 b3 58 5f 5a d1 53 2a 9d ab eb 65 a4 e2 f3 d5 a6 26 64 c8 3b eb 20 ce 44 ;49.875
+11;Let's go climbing!;7c c8 e8 1f 7d 10 6c f7 b3 58 5f 5a d1 53 2a 9d 07 b9 28 a9 8f a5 a0 9f 83 3e 3e f2 4b 7c 25 63 ;
+12;This is wonderful.;3c ff 4b bd a4 ff d9 a0 7f 46 f1 d2 a7 6f 54 c2 44 17 3e 74 fe f1 73 c4 b2 de 29 64 77 e4 22 8b ;49.625
+12;This is wonderful!;3c ff 4b bd a4 ff d9 a0 7f 46 f1 d2 a7 6f 54 c2 81 eb 92 2b ce fe a0 ef e2 11 26 ed b4 02 2a 9b ;
+13;I love my friends.;a7 23 aa ec d0 b6 27 8d 2b ec 7e b9 2c fe 89 63 ff 5b 93 70 54 f1 fd 19 6b 56 b9 ef 4b f3 b6 1f ;49.875
+13;I love my friends!;a7 23 aa ec d0 b6 27 8d 2b ec 7e b9 2c fe 89 63 60 6e 4b 5d 83 ee ed b9 50 2f ba e7 87 f1 31 29 ;
+14;Let's go fishing.;2d c3 ed 9c c9 9f 04 2c 46 dd 89 8c 90 1c 6b 74 e6 76 41 8b ea 9a 98 ec 4d fe b2 bb 29 e9 55 0d ;49.875
+14;Let's go fishing!;2d c3 ed 9c c9 9f 04 2c 46 dd 89 8c 90 1c 6b 74 cc 12 1e e8 2c 6c f6 e5 ef 69 72 8f c8 0c 00 9d ;
+15;What's your passion?;46 2b 7c 10 7d e6 0c 24 b2 98 ab c0 19 c7 2f 26 85 9a 1e 0e a7 66 17 50 c1 5f 07 41 df 33 e2 7f ;49.90625
+15;What's your passion!;46 2b 7c 10 7d e6 0c 24 b2 98 ab c0 19 c7 2f 26 0e f1 dc d5 40 c7 6d 1c eb bf 15 95 db 7b 79 55 ;
+16;I enjoy gardening.;4a bd 96 8e 93 38 0a 45 bb 14 28 96 ba 69 36 b5 e6 0b 71 ce 6b b0 f6 5c a4 88 a9 a0 00 bd 6b 63 ;49.8125
+16;I enjoy gardening!;4a bd 96 8e 93 38 0a 45 bb 14 28 96 ba 69 36 b5 4e 38 11 00 c4 a3 97 91 ca f1 a1 8a 5b 7c ca aa ;
+17;Let's go kayaking.;df 6e 70 c3 da e0 0f 5d f3 62 e1 08 82 80 31 9b 59 01 62 3f a1 fa a1 9a f1 a8 bd 36 67 15 f7 c2 ;49.65625
+17;Let's go kayaking!;df 6e 70 c3 da e0 0f 5d f3 62 e1 08 82 80 31 9b 1e fa 50 cf 79 88 58 35 81 9d 34 98 2b d1 2c 13 ;
+18;This is beautiful.;0c 48 6b 31 ed a7 8d 16 02 3b da 6c 3b f2 42 37 9a b9 23 c2 77 04 23 6a 00 20 64 43 16 8e 8d 68 ;49.75
+18;This is beautiful!;0c 48 6b 31 ed a7 8d 16 02 3b da 6c 3b f2 42 37 74 65 48 a0 a5 ea e7 63 7c b5 b0 bf fb bd 40 97 ;
+19;I love my home.;1e c4 f9 3e 46 a3 33 df 10 17 09 9d 1e 06 86 86 ;99.875
+19;I love my home!;ea ef 37 91 ba 0e 19 22 bf 2c ca 19 0e 4a 9a 3d ;
+20;Let's go sailing.;ea 11 ee b7 41 55 60 2e 97 9b 5f 9b ee 3f d0 24 6b 6f 40 08 1c 1d 9a b9 a7 fb e3 18 3e b9 2d 95 ;49.8125
+20;Let's go sailing!;ea 11 ee b7 41 55 60 2e 97 9b 5f 9b ee 3f d0 24 3b 32 66 77 85 26 14 a4 fe d5 14 c4 ee 8b 54 12 ;
+21;What's your favorite?;ad 63 ea b7 4c 38 dd 2b e0 09 67 2a 81 ce f5 38 2f ae a2 ef 47 5f 21 92 f6 bd 11 59 8a d8 68 61 ;49.65625
+21;What's your favorite!;ad 63 ea b7 4c 38 dd 2b e0 09 67 2a 81 ce f5 38 1e 20 02 34 db cb bb 46 5b 7e 6e 82 9a 01 08 43 ;
+22;I enjoy photography.;03 05 b6 89 4c cd 8a 33 8f 57 96 58 7e 2a dc e6 fe 6e 7c b0 f4 09 c1 95 ec 49 a3 46 f2 7a 96 50 ;49.875
+22;I enjoy photography!;03 05 b6 89 4c cd 8a 33 8f 57 96 58 7e 2a dc e6 c3 bc 78 1d 1c b2 bb 0c 7d ae 0d f0 3f cb b9 72 ;
+23;Let's go exploring.;ca 48 f3 4d 8b 53 6f ae 8a 27 7e 21 c9 c2 1a 48 0e c3 55 3e 9e e5 30 02 18 91 2a b2 17 02 a4 df ;49.8125
+23;Let's go exploring!;ca 48 f3 4d 8b 53 6f ae 8a 27 7e 21 c9 c2 1a 48 e1 05 2b b2 6c 22 ac 71 2e 55 2f 69 98 6b d5 3b ;
+24;This is fantastic.;56 25 37 4d 04 d3 35 68 d4 06 3d 36 38 df 71 a0 ec 4a 6a bc e1 2a 27 eb 32 48 24 9c c8 61 18 f0 ;49.84375
+24;This is fantastic!;56 25 37 4d 04 d3 35 68 d4 06 3d 36 38 df 71 a0 ff 18 5b 83 52 bc 24 b0 77 96 a1 1a f7 0b 8e 62 ;
+25;I love my car.;60 c4 43 c3 8d 4f a8 6f 6c 3a 00 16 28 0f 22 28 ;99.625
+25;I love my car!;4d fb 3e 65 8e 22 70 26 fc 56 35 89 25 26 e4 14 ;
+26;Let's go driving.;c8 2d 02 63 42 a7 03 02 f6 40 0f e5 71 42 06 fb 06 8d 34 a0 74 27 15 73 df f2 89 e3 0a d5 5f 45 ;49.8125
+26;Let's go driving!;c8 2d 02 63 42 a7 03 02 f6 40 0f e5 71 42 06 fb ce eb 1d f8 85 6d aa c5 cc 60 14 f0 97 6b d9 64 ;
+27;What's your favorite color?;8b 9c 22 3d 4d 96 9e a0 ce ca ed 58 b3 36 a8 08 18 88 0e 5a 79 60 9b 37 cb 74 ad 88 eb 80 39 64 ;49.71875
+27;What's your favorite color!;8b 9c 22 3d 4d 96 9e a0 ce ca ed 58 b3 36 a8 08 cc 5c a8 1a 21 11 2b 8a 32 8f c0 14 aa 95 61 e2 ;
+28;I enjoy listening to music.;57 23 a9 bd 08 b6 d0 6e bd 2b 74 4b 95 e4 6b f1 94 b1 ed 77 02 63 50 72 3b ef 63 1c 98 b4 c7 92 ;49.875
+28;I enjoy listening to music!;57 23 a9 bd 08 b6 d0 6e bd 2b 74 4b 95 e4 6b f1 4b e7 b7 46 0f e3 13 d3 c3 55 b4 cd d6 7a aa 50 ;
+29;Let's go to the park.;25 74 c1 f4 8b d9 75 bd bf 35 c7 42 03 a0 fa 34 ab af 72 6a 66 f2 0a 68 1e 94 18 bd 42 d1 e5 39 ;49.75
+29;Let's go to the park!;25 74 c1 f4 8b d9 75 bd bf 35 c7 42 03 a0 fa 34 dd ea 1d 12 61 a7 bc 37 01 63 6f 10 b3 21 28 43 ;
+30;This is incredible.;c0 11 ec d2 cd de 21 39 0b 8c 07 b2 76 20 bb 73 14 1c 85 01 37 01 15 1b 6a d3 db 44 e8 fd e1 e1 ;49.8125
+30;This is incredible!;c0 11 ec d2 cd de 21 39 0b 8c 07 b2 76 20 bb 73 3e 9a 4b 16 a5 0a ec 9f 97 b9 a0 84 ea c1 87 19 ;
+31;I love my phone.;02 b4 70 9e d9 1e 4c 14 b0 08 bf 6c b4 3c fb 44 4b ac 33 32 30 b0 b9 e2 52 2f 8a c6 32 f9 0e 55 ;99.5625
+31;I love my phone!;97 b9 f3 55 e5 b7 b2 99 aa 74 3e 53 2e 26 a6 3f ed ef 81 42 37 dc 75 80 dd be 42 05 ac 8c 51 9f ;
+32;Let's go to the beach.;b3 bc df ab 02 3b 9c ec ca 77 16 0f 1d bd af bb d1 b7 ee 8c 74 11 d6 28 22 fb c7 00 0f f7 9f 15 ;49.5625
+32;Let's go to the beach!;b3 bc df ab 02 3b 9c ec ca 77 16 0f 1d bd af bb b5 d7 7c 4d 38 21 be 8e 16 ba 60 e8 6d 2a f9 2d ;
+33;What's your favorite food?;00 5c a7 a4 36 4c 45 5d 3e a5 74 35 53 f1 c7 e3 0e ff f6 75 01 4f f8 29 f1 72 29 a3 68 19 cc 94 ;49.90625
+33;What's your favorite food!;00 5c a7 a4 36 4c 45 5d 3e a5 74 35 53 f1 c7 e3 e2 2b 48 98 52 52 eb 70 c7 3b b6 d0 f4 fe 76 c1 ;
+34;I enjoy watching movies.;4e d9 97 ff c2 89 bc 9c 55 64 81 1f 82 84 1c 50 4d 76 b4 2c 63 fd 65 99 a9 87 28 df e8 d9 9e 71 ;49.875
+34;I enjoy watching movies!;4e d9 97 ff c2 89 bc 9c 55 64 81 1f 82 84 1c 50 9f 26 7c c1 b8 02 32 6b 48 f4 76 64 62 e5 49 1a ;
+35;Let's go to the mall.;b5 0a ee e6 50 fc 90 54 a8 80 92 ec 73 de 4c e3 45 0f 5b 80 57 09 30 7b a8 54 e1 41 a1 3c 54 17 ;49.75
+35;Let's go to the mall!;b5 0a ee e6 50 fc 90 54 a8 80 92 ec 73 de 4c e3 ed 09 ee 7f 30 bf 80 53 4e c9 7b d3 a2 cd 56 42 ;
+36;This is amazing.;76 3d 55 14 d0 1a 43 fe 29 42 3d db a8 c0 ef 50 6d f0 75 e0 89 c6 59 d4 6d 87 3c 76 21 80 06 cc ;99.6875
+36;This is amazing!;1e e0 15 b7 3d 18 72 08 b8 1a f3 e6 72 3d 85 d5 16 6a 8f 4b 47 b3 54 24 ae da a3 87 e9 b6 1c 50 ;
+37;I love my laptop.;06 e8 c2 1a 0b d1 bd b5 98 88 d2 88 fe bb 22 42 c2 50 19 fa 87 1d 97 33 ae a2 01 9f b6 99 50 0f ;49.875
+37;I love my laptop!;06 e8 c2 1a 0b d1 bd b5 98 88 d2 88 fe bb 22 42 ff 7c db 4f d4 db 26 cb d2 f5 1a df 1b 2f 8d ce ;
+38;Let's go to the zoo.;e2 1e 87 e5 a0 9c ec 74 42 e6 12 08 4b 89 da 3d f5 ae ab 68 ae b8 a9 c1 ea 12 74 ad 9a 68 96 a7 ;49.84375
+38;Let's go to the zoo!;e2 1e 87 e5 a0 9c ec 74 42 e6 12 08 4b 89 da 3d bf 50 3c bd 4b 1a 0c 7a 5c 8a c7 b4 6e b2 ae 5d ;
+39;What's your favorite animal?;08 81 18 10 59 bf 03 d7 57 4e 93 91 0e 32 fe 8b d5 9e da 2c ae e6 4a 4c 8e 86 df 0e 54 e0 fe 64 ;49.875
+39;What's your favorite animal!;08 81 18 10 59 bf 03 d7 57 4e 93 91 0e 32 fe 8b 06 78 c3 3e 0f 90 86 8a 2c cb b8 92 7b c4 22 26 ;
+40;I enjoy playing games.;5a f5 28 4d 7a 12 36 29 40 e9 26 7a 46 07 c2 35 18 36 4e 53 fb 2c 4e 7d 14 f9 52 59 19 a1 56 30 ;49.8125
+40;I enjoy playing games!;5a f5 28 4d 7a 12 36 29 40 e9 26 7a 46 07 c2 35 6f 99 85 2d e0 f4 ab a9 15 48 7a 9a 5c 15 2a 0e ;
+41;Let's go to the museum.;5c f7 2a 7b 81 17 3a c3 01 0b af 98 b1 29 23 76 0c 14 3f cd eb f2 57 3b 36 b3 f0 37 c4 a6 58 5d ;49.71875
+41;Let's go to the museum!;5c f7 2a 7b 81 17 3a c3 01 0b af 98 b1 29 23 76 7f b9 96 aa 96 d8 97 a3 33 75 fe 8c 68 df 37 c3 ;
+42;This is wonderful.;34 fc 22 fc 13 ad 2e 7f cf c8 52 e5 7d c3 88 22 54 96 4a 0c 57 f9 1b 01 ec de 4e e8 ec ca e6 36 ;49.84375
+42;This is wonderful!;34 fc 22 fc 13 ad 2e 7f cf c8 52 e5 7d c3 88 22 b3 c5 27 9b 02 ae 11 74 f0 6a 1c 0f 27 03 6e d4 ;
+43;I love my bike.;15 80 2d 04 85 76 2f 7d 23 38 1e 78 d8 f1 8b ec ;99.6875
+43;I love my bike!;ee 6b b4 a1 b1 43 33 0d 99 7d 88 9d 8c a5 23 d3 ;
+44;Let's go to the library.;ef f6 7c 0c 40 29 b8 8e 51 c9 39 22 30 10 ce e1 2a dc d8 20 fb 56 c2 99 2c b1 c5 0a 57 05 cf a0 ;49.875
+44;Let's go to the library!;ef f6 7c 0c 40 29 b8 8e 51 c9 39 22 30 10 ce e1 00 a9 4a 01 ba b5 4d d1 93 8c fa c8 a1 84 62 f4 ;
+45;What's your favorite book?;21 4e 18 0f 32 dc b1 bf d3 33 5d 56 9e 2c 9a 23 3a 4c f5 21 5b d4 15 8f d8 21 19 dc 65 3e c8 2d ;50
+45;What's your favorite book!;21 4e 18 0f 32 dc b1 bf d3 33 5d 56 9e 2c 9a 23 04 e5 4b 50 02 4f 83 22 d6 72 76 54 0c f9 62 5a ;
+46;I enjoy reading books.;54 06 d8 3c 60 ee 2b 38 6c 8c 75 9d cb 36 c8 03 0c 60 67 e9 26 19 b7 26 f8 4b d4 be 7d 10 1d c6 ;49.875
+46;I enjoy reading books!;54 06 d8 3c 60 ee 2b 38 6c 8c 75 9d cb 36 c8 03 9e f3 46 9e 6b 0c 91 dd cf da 20 92 85 f7 4e ce ;
+47;Let's go to the cafe.;71 4e 91 b7 3d ab 29 9e e4 c1 c9 cf 96 6d 8a ba 07 0d ff ee 0d 6f fc e0 51 1b 1d a8 aa 5a ea 16 ;49.75
+47;Let's go to the cafe!;71 4e 91 b7 3d ab 29 9e e4 c1 c9 cf 96 6d 8a ba fa 1b a8 cf 88 78 df 4b f3 eb bf f2 cb a2 ce c9 ;
+48;This is fantastic.;84 6e 1d f5 9d 4a 71 31 ed 47 7d ed 66 e6 85 58 be ca d2 38 72 d8 bb 62 7b dc 05 1d 5d b5 42 11 ;49.84375
+48;This is fantastic!;84 6e 1d f5 9d 4a 71 31 ed 47 7d ed 66 e6 85 58 97 69 f7 58 c3 61 94 03 f1 b8 55 f3 20 1e f3 f3 ;
+49;I love my tablet.;3e aa b4 83 77 c3 1a f4 de 12 98 e5 28 88 b4 4d dd a7 46 e1 d2 04 fb 49 72 01 35 50 1b 7c c0 02 ;49.875
+49;I love my tablet!;3e aa b4 83 77 c3 1a f4 de 12 98 e5 28 88 b4 4d ac 21 e3 f3 29 ad 18 ac c3 63 3d a2 af 23 9f 6e ;
+50;Let's go to the restaurant.;a6 5c c4 5c 30 19 a2 d8 ea 73 40 34 c4 2d 65 dc a6 77 7b 20 d9 03 10 95 7d e9 ff 59 7b 9a 3d 48 ;49.84375
+50;Let's go to the restaurant!;a6 5c c4 5c 30 19 a2 d8 ea 73 40 34 c4 2d 65 dc 5a 14 08 b8 de 0b 7d bd ea 2f 4e a0 86 c7 bb 47 ;
+51;What's your favorite drink?;96 47 08 57 57 ec 0f c4 8f d2 7f c5 58 5a 21 6b c0 67 05 a3 bb f0 b6 29 65 7e 06 83 2f e5 08 40 ;49.8125
+51;What's your favorite drink!;96 47 08 57 57 ec 0f c4 8f d2 7f c5 58 5a 21 6b 68 b0 53 e8 a5 d5 d1 fe 07 14 f2 16 49 42 c0 ca ;
+52;I enjoy drinking coffee.;55 f0 5d 56 6d 6f f9 a8 0a 3f 8d 49 7d 65 a3 6b b1 cf d5 eb a2 d8 58 9e 00 21 b8 be ed 17 7b 04 ;49.78125
+52;I enjoy drinking coffee!;55 f0 5d 56 6d 6f f9 a8 0a 3f 8d 49 7d 65 a3 6b e0 61 28 c5 fa 62 89 56 1f cf e2 6b c9 3c c7 63 ;
+53;Let's go to the bar.;38 57 67 c5 fd 88 f5 11 15 88 80 f9 19 00 ec 67 d5 4e 13 41 ff 7b 93 3a 70 f5 ad 2a 54 7f 29 a5 ;49.65625
+53;Let's go to the bar!;38 57 67 c5 fd 88 f5 11 15 88 80 f9 19 00 ec 67 56 eb b8 a3 75 20 95 39 53 93 cf d1 3d 3d 2d fe ;
+54;This is incredible.;46 1e 4a 50 04 bc 69 75 0d 58 61 ef 9c 67 95 08 c4 49 f7 59 5e e1 bc c4 95 f3 0a cb 6b 27 96 e2 ;49.84375
+54;This is incredible!;46 1e 4a 50 04 bc 69 75 0d 58 61 ef 9c 67 95 08 af 59 f0 d5 47 b2 d4 43 40 83 6e fc 9c ec df 8c ;
+55;I love my watch.;c8 db 67 78 e4 b6 2e 9a 63 c8 23 f1 fb 9e 6a c3 67 c8 67 64 ae 7b bb 9e 19 03 62 00 01 0a 2f 6b ;99.78125
+55;I love my watch!;75 ca e7 4e 69 6b 14 51 25 ba b0 58 11 d7 4b 55 b6 65 ef a3 f6 bd f0 d9 2d b3 2e 5a 05 48 a8 9c ;
+56;Let's go to the club.;51 39 94 ab f4 7a 09 77 d5 cf 76 fb 3d ca 4b b8 9d 3d d7 4f 1c f4 d2 36 bf d8 4b 45 8a 83 b2 5a ;49.84375
+56;Let's go to the club!;51 39 94 ab f4 7a 09 77 d5 cf 76 fb 3d ca 4b b8 5e dc 2e 4f f2 bb c5 c3 4d 4e c9 c0 29 a9 bc 6c ;
+57;What's your favorite song?;f8 02 2c 87 c5 2c e7 06 39 66 33 ab 2a 70 cd 41 a4 f5 23 b5 51 c2 89 6c 26 ed 69 fa e7 2a fd 27 ;49.71875
+57;What's your favorite song!;f8 02 2c 87 c5 2c e7 06 39 66 33 ab 2a 70 cd 41 d2 5c 7a df 19 fb ac e0 15 2a 97 85 4d 72 98 2a ;
+58;I enjoy listening to podcasts.;d9 52 b2 68 be f9 26 d5 d1 d3 cc 98 3f ff eb 46 78 f5 13 73 2f 2c 43 a3 9e b9 38 64 f2 9d cd ac ;49.8125
+58;I enjoy listening to podcasts!;d9 52 b2 68 be f9 26 d5 d1 d3 cc 98 3f ff eb 46 2c cc 37 d6 fd d7 8c 50 3e 4c 24 1c 94 21 34 19 ;
+59;Let's go to the concert.;8f b2 93 1e eb 5b f5 a1 50 2e 63 6a ea 77 b5 2c 0b c2 d1 0d 7a 62 08 c5 41 1a 0b 4a d7 40 91 f1 ;49.9375
+59;Let's go to the concert!;8f b2 93 1e eb 5b f5 a1 50 2e 63 6a ea 77 b5 2c 7d a8 25 e2 21 a5 d3 15 7b 74 54 05 85 26 56 74 ;
+60;This is amazing.;b3 ee 3c a3 26 43 8d f8 1d 38 42 df 98 10 06 2f 2e 2a 7a e8 36 8b 08 91 11 e1 28 4a c2 66 28 eb ;99.59375
+60;This is amazing!;33 53 e8 9e d5 e6 9f bd 4f ff 9a 59 14 87 52 62 1d 28 fa 9f fd ec da 14 fb a7 2d 53 20 7b 7a 4e ;
+61;I love my headphones.;f4 c6 1e 0d fe e0 52 52 6e 17 e3 79 db 10 0c 15 e0 9b 8a 6e 6f 95 05 ae df d0 8d bf 85 b0 a4 ef ;49.8125
+61;I love my headphones!;f4 c6 1e 0d fe e0 52 52 6e 17 e3 79 db 10 0c 15 3a 35 1f 7a 86 07 ea 8d 13 3f 1c 33 ad 40 b9 fa ;
+62;Let's go to the theater.;c3 c5 04 0d 3e 57 83 3d a5 c0 e9 f1 55 74 77 03 b0 9c 5c cf d2 65 4d 3c cb e9 76 48 09 71 f5 ac ;49.9375
+62;Let's go to the theater!;c3 c5 04 0d 3e 57 83 3d a5 c0 e9 f1 55 74 77 03 95 c0 d9 34 7d 2a 9e bd 2c 44 ad f7 81 ee f9 6f ;
+63;What's your favorite movie?;30 ad 28 b2 07 09 58 ce 86 9e b5 5e a4 10 0d 88 2c 2a a7 9b aa 32 c9 79 42 45 08 b3 2f 79 55 cf ;49.875
+63;What's your favorite movie!;30 ad 28 b2 07 09 58 ce 86 9e b5 5e a4 10 0d 88 d3 62 c5 7d 04 ff 98 95 cd c0 15 51 9b 63 15 58 ;
+64;I enjoy watching TV shows.;0e 53 ec a3 c4 48 9b 50 5d 45 2e 09 1f 96 e1 46 1c da 8d 8d bb eb ba 94 e1 28 b2 50 25 e0 20 bd ;49.65625
+64;I enjoy watching TV shows!;0e 53 ec a3 c4 48 9b 50 5d 45 2e 09 1f 96 e1 46 b0 71 94 b3 39 0f ab dc 93 1c f9 27 11 42 fa 5c ;
+65;Let's go to the cinema.;01 47 df 8a 8a 0e 05 8e d2 3c 40 6e 9b 74 85 a5 48 3d 65 7c a8 9a d8 bb 9a fa a7 d9 c5 6d c0 e7 ;49.75
+65;Let's go to the cinema!;01 47 df 8a 8a 0e 05 8e d2 3c 40 6e 9b 74 85 a5 e1 9b 0a 7d d3 b4 db e9 df 31 dd 2a 28 4d 45 4d ;
+66;This is wonderful.;f0 63 c5 b6 a1 b3 9e 7d 41 dc 35 94 7c 1c e0 92 4b 7f f6 e4 aa d5 6a 79 2f d6 28 6b cb b8 20 95 ;49.8125
+66;This is wonderful!;f0 63 c5 b6 a1 b3 9e 7d 41 dc 35 94 7c 1c e0 92 73 b4 e3 bb 63 1c 15 66 be af 97 a1 4b f6 dd 91 ;
+67;I love my camera.;a3 ef 1e 38 f0 3b 9c 75 15 97 bb 49 b3 2d b0 b3 0a 9f 85 32 3c a0 98 b8 00 33 c6 75 fb a8 2e f4 ;49.71875
+67;I love my camera!;a3 ef 1e 38 f0 3b 9c 75 15 97 bb 49 b3 2d b0 b3 55 a9 54 23 49 2e be b0 fe 85 2d a6 b1 43 07 b4 ;
+68;Let's go to the park.;a2 05 74 90 48 40 1f 5b 24 48 65 77 d0 86 a6 0b 88 4d 2b fc e2 6d 36 ee 18 13 94 9b c6 e1 f8 cb ;49.78125
+68;Let's go to the park!;a2 05 74 90 48 40 1f 5b 24 48 65 77 d0 86 a6 0b e9 a4 47 7e 6a f4 0a 88 b0 b1 d7 aa 53 00 15 c8 ;
+69;What's your favorite sport?;bc 7d a9 8e 0c 94 5e e6 ce 7e 12 74 d9 61 7c 62 c7 40 93 02 d5 bc aa e2 da 01 93 61 bc f0 83 b6 ;49.84375
+69;What's your favorite sport!;bc 7d a9 8e 0c 94 5e e6 ce 7e 12 74 d9 61 7c 62 09 b1 c8 d4 62 45 59 2a de 83 ea 0d e7 ed a2 cc ;
+70;I enjoy playing soccer.;57 44 16 ab 15 9a f7 3d b4 dc 99 f6 ee 7b f4 aa 3e ae 54 7f 46 d8 b2 b6 c6 1d 5b f4 de 7c 9b 9a ;49.90625
+70;I enjoy playing soccer!;57 44 16 ab 15 9a f7 3d b4 dc 99 f6 ee 7b f4 aa d8 09 92 c5 02 c3 6e 07 67 74 f0 a1 2d 94 b3 ff ;
+71;Let's go to the stadium.;9d 8b e0 df d2 6b 10 0b 7b a4 cd 6b 37 98 e6 95 ef 5d 18 a6 49 11 dc 3d ec c3 1e 6d 27 95 44 de ;49.78125
+71;Let's go to the stadium!;9d 8b e0 df d2 6b 10 0b 7b a4 cd 6b 37 98 e6 95 7d 89 4c a5 2e 49 b1 d4 87 3b 68 3d 68 11 a2 6a ;
+72;This is fantastic.;46 e7 76 98 8f 7f 4b ce 7e 36 65 00 f3 f1 c3 8d 44 e1 fc 85 24 10 5e cb 5a 30 4a ca f1 a8 5b 55 ;49.78125
+72;This is fantastic!;46 e7 76 98 8f 7f 4b ce 7e 36 65 00 f3 f1 c3 8d f5 86 01 e2 e3 70 7c ee da 6f 54 20 bf 8a dd 59 ;
+73;I love my sneakers.;46 12 56 a6 89 e8 20 c8 08 b5 b5 a0 bd 8f 2d 86 85 c8 13 6f 10 f2 2a 00 9a fd 61 75 56 26 8c 49 ;49.71875
+73;I love my sneakers!;46 12 56 a6 89 e8 20 c8 08 b5 b5 a0 bd 8f 2d 86 bb 34 16 d0 da f1 84 4f 55 9e b9 d8 4a 61 99 c5 ;
+74;Let's go to the gym.;95 4c 7e cd 11 ec ba 80 ee 6b cf c3 80 a6 8c c6 57 e5 25 31 49 b6 8d bb e8 a7 bf ad b9 3d e5 64 ;49.875
+74;Let's go to the gym!;95 4c 7e cd 11 ec ba 80 ee 6b cf c3 80 a6 8c c6 56 e3 2a da 13 c4 e0 10 12 22 0d 27 64 62 96 72 ;
+75;What's your favorite exercise?;5b 29 3d a1 3f 58 ab de 60 a9 61 c9 4f 95 03 40 dc e4 ae 3c 78 e6 41 bc 95 ba 16 39 f9 98 da f6 ;49.875
+75;What's your favorite exercise!;5b 29 3d a1 3f 58 ab de 60 a9 61 c9 4f 95 03 40 0c b2 05 7c 20 06 98 18 8c 92 b8 a4 41 d4 af 7d ;
+76;I enjoy working out.;a2 b8 86 6f b0 4f ba 2f 6a 16 ee f5 91 fc c0 92 6d c8 ff 1b c2 b3 af 21 53 e1 39 e5 12 48 27 1e ;49.84375
+76;I enjoy working out!;a2 b8 86 6f b0 4f ba 2f 6a 16 ee f5 91 fc c0 92 cb bb 76 05 98 55 6e 29 14 ad 1d ae d2 ff 8c 99 ;
+77;Let's go to the pool.;1b 2c cb cf f0 68 d4 f9 62 47 e3 56 73 ea 86 52 92 50 e2 d7 55 fb f8 91 c5 92 12 70 3e 12 7e 0e ;49.96875
+77;Let's go to the pool!;1b 2c cb cf f0 68 d4 f9 62 47 e3 56 73 ea 86 52 28 ea 05 9b a0 ee 08 f9 60 fe 66 50 13 09 ca bf ;
+78;This is incredible.;00 dc 4c 0b 54 19 11 7f 1e 65 a3 a4 cc 64 fe 1e ab f3 32 c6 75 4b ed 74 fa 25 e9 d1 f4 89 bc b4 ;49.78125
+78;This is incredible!;00 dc 4c 0b 54 19 11 7f 1e 65 a3 a4 cc 64 fe 1e cb d8 03 a4 25 e1 a0 97 19 d2 e1 48 95 75 15 5e ;
+79;I love my swimsuit.;ef 3f 14 86 08 c8 23 fa 57 02 e3 68 27 04 da 61 2e 8e a4 10 b3 31 87 60 c6 47 8c 4e 4b cc 67 32 ;49.96875
+79;I love my swimsuit!;ef 3f 14 86 08 c8 23 fa 57 02 e3 68 27 04 da 61 9c b3 98 31 3c e8 ae 45 a7 fe cf 9b 64 87 52 f2 ;
+80;Let's go to the lake.;bd cf 17 37 b6 11 55 15 6f 26 ff d4 75 64 00 2e 4d db 6f d5 ec 8e 42 e3 25 09 ef c5 da d3 cb c5 ;49.875
+80;Let's go to the lake!;bd cf 17 37 b6 11 55 15 6f 26 ff d4 75 64 00 2e 78 8f 77 3b 47 6d 17 94 81 a5 51 71 df b1 bf 6f ;
+81;What's your favorite place?;c1 94 b2 de 6b 99 c8 5f c1 97 b0 72 a0 5b 5b 64 2a 52 91 46 b6 30 28 0b d2 49 b8 90 08 7f af 75 ;49.90625
+81;What's your favorite place!;c1 94 b2 de 6b 99 c8 5f c1 97 b0 72 a0 5b 5b 64 8e df d1 21 10 10 0d 14 d1 78 f1 1d d9 ad aa dc ;
+82;I enjoy traveling.;f6 ff 66 d0 03 01 c2 b2 8a 90 b2 91 ec 3a 2b 59 aa 60 75 aa de 21 d1 8f 4f 83 09 5f 0d 77 dd 47 ;49.8125
+82;I enjoy traveling!;f6 ff 66 d0 03 01 c2 b2 8a 90 b2 91 ec 3a 2b 59 6d 45 f3 0d d1 f7 0a 65 2e 99 57 a1 a2 38 b6 32 ;
+83;Let's go to the mountains.;a1 0f a9 36 95 f8 da 04 30 66 b1 45 a1 02 8b 91 ce d3 0a 09 e6 c9 8e be 74 c4 12 62 78 87 13 3e ;49.84375
+83;Let's go to the mountains!;a1 0f a9 36 95 f8 da 04 30 66 b1 45 a1 02 8b 91 c8 2c f8 25 dd fd c4 b9 6b 51 a9 f4 6e df df 7d ;
+84;This is amazing.;2d 8f e8 16 83 d9 26 be 47 b5 c1 09 e2 5a f4 3a d8 34 3f 34 f7 81 e7 4e c1 73 83 53 0e 01 63 3d ;99.625
+84;This is amazing!;f2 80 0f 5f 73 dd 02 fc c6 2c d8 92 24 8e c8 4c ef 23 70 dd e0 a7 9b b4 9d 61 78 59 4c e2 83 f5 ;
+85;I love my backpack.;07 bb 6d 0e 09 f0 69 a6 29 97 d4 d3 61 6b e1 46 ed 01 e2 65 7c 9d bd dc 59 f0 3c 6d 79 b6 87 a7 ;49.90625
+85;I love my backpack!;07 bb 6d 0e 09 f0 69 a6 29 97 d4 d3 61 6b e1 46 04 b9 fd d2 4e f4 a5 68 d5 10 18 36 8b dc 9c 61 ;
+86;Let's go to the forest.;3c 4a 89 4d 34 34 88 4a 75 16 2a dd af bd 07 04 39 b6 21 0c 15 8a 65 03 ff 39 9d 7b ad 75 f0 8e ;49.875
+86;Let's go to the forest!;3c 4a 89 4d 34 34 88 4a 75 16 2a dd af bd 07 04 b8 e5 fc 7f e0 96 ba 3b e2 4f 62 47 d8 96 33 87 ;
+87;What's your favorite season?;02 38 50 9c 8d 1e 4a 9f 2a fa 23 f8 8f 95 a4 fd 75 0e de 7b a8 84 59 89 04 21 4e c1 e1 9c f3 fc ;49.71875
+87;What's your favorite season!;02 38 50 9c 8d 1e 4a 9f 2a fa 23 f8 8f 95 a4 fd ff d4 b8 44 a9 91 d3 06 63 8f 2c 43 2e a5 ef ab ;
+88;I enjoy the fall.;94 48 2c 3e d0 a0 98 42 f3 24 af 06 33 bf 48 a8 01 25 6f a9 64 f6 33 17 98 d1 6d 5a cc e2 eb 4d ;49.75
+88;I enjoy the fall!;94 48 2c 3e d0 a0 98 42 f3 24 af 06 33 bf 48 a8 5a 03 0c 94 7e 88 7b 0b a3 09 6e ad 85 b5 f9 45 ;
+89;Let's go to the river.;d0 04 d9 b3 a2 29 53 12 8e 05 37 2c 35 eb c0 23 d2 ae 20 37 4b e9 dc 89 82 e6 95 ce 6b 2e c7 2e ;49.875
+89;Let's go to the river!;d0 04 d9 b3 a2 29 53 12 8e 05 37 2c 35 eb c0 23 45 7f a7 a1 b0 52 eb 26 9a 1b a2 a5 f3 e9 94 86 ;
+90;This is wonderful.;47 c6 8f 2d 3f 22 f8 ad 81 61 31 1f 23 15 39 7f d8 16 f0 6d 9a 03 3c 6b d4 b7 b8 52 fd 5f 67 2a ;49.71875
+90;This is wonderful!;47 c6 8f 2d 3f 22 f8 ad 81 61 31 1f 23 15 39 7f bd da 72 3b 58 db 09 a2 3b 93 28 8b c3 fa 2a 4c ;
+91;I love my jacket.;18 04 a3 8c 96 07 db 2a 8e 2c de c5 57 f2 f3 f1 e5 f5 bc eb 1a 2d bc db dd 90 4d ce b8 cf 33 7a ;49.75
+91;I love my jacket!;18 04 a3 8c 96 07 db 2a 8e 2c de c5 57 f2 f3 f1 98 f1 62 49 6e 8b fe 16 85 ce 57 25 77 e6 72 6b ;
+92;Let's go to the desert.;a4 8f 38 22 b7 cd 50 5a 74 45 29 40 43 eb 74 de fb 02 f4 bd ba 79 29 04 b2 99 fe d9 6e 3b 08 ad ;49.84375
+92;Let's go to the desert!;a4 8f 38 22 b7 cd 50 5a 74 45 29 40 43 eb 74 de 6f b6 f0 1d b2 4b 01 51 f3 3c 73 29 c4 0a 0d ca ;
+93;What's your favorite weather?;c9 8c 04 f4 3a d1 96 a8 37 aa c2 c5 b1 d6 88 78 1c 4c 89 f3 69 06 5d f8 2f b2 da 13 c8 48 5c 43 ;49.8125
+93;What's your favorite weather!;c9 8c 04 f4 3a d1 96 a8 37 aa c2 c5 b1 d6 88 78 12 f8 9d de da 83 9a 20 67 79 eb f9 0c 3d f6 08 ;
+94;I love my dog.;0d 45 6d 67 03 69 a3 0e 16 8f a7 63 20 be 33 7e ;99.5
+94;I love my dog!;75 a1 c6 6a 2e 57 b7 b8 e8 d9 98 ce 7a c6 1a 48 ;
+95;Let's go shopping.;b4 69 b1 55 46 56 54 37 59 84 de 6b 1c 4c cc 59 8a 19 a6 c4 f4 87 92 1a d7 0b f5 af b2 a6 1b d3 ;49.9375
+95;Let's go shopping!;b4 69 b1 55 46 56 54 37 59 84 de 6b 1c 4c cc 59 16 3f 24 b2 b7 2c 37 74 4a b8 96 a7 1b 9e a1 e9 ;
+96;What's for dinner?;98 a3 00 27 bb 0a 02 e2 70 58 0f 6b 78 65 d7 8b 04 2c 3e e9 85 6e f7 6d 01 58 15 53 ad 58 aa f5 ;49.78125
+96;What's for dinner!;98 a3 00 27 bb 0a 02 e2 70 58 0f 6b 78 65 d7 8b c8 37 a0 36 16 7c c9 82 fb 51 21 fc f6 75 1e bf ;
+97;I enjoy cooking.;02 ff 5f 79 5c 3a ff eb 1f e5 6a 18 82 55 f1 b6 be e2 b6 53 6c e9 63 30 e8 db 0e 2d b3 ba b9 f7 ;99.59375
+97;I enjoy cooking!;b1 04 a5 a3 87 bf a0 8d 6a b2 bc ba 6d 91 d6 ce 89 06 a2 5a c1 99 40 93 63 ec 89 df 93 f9 2e 38 ;
+98;Let's play a game.;c1 99 9a bc 90 6e 5d 3a 17 62 81 09 c3 d3 da df 4d 59 a4 fe 07 c5 8f 71 24 69 cb 77 03 ef c8 59 ;49.90625
+98;Let's play a game!;c1 99 9a bc 90 6e 5d 3a 17 62 81 09 c3 d3 da df d4 84 6a 9a c3 d8 86 bb 6c ff bc e7 41 5b ff 8b ;
+99;This is fun.;53 36 e4 e4 bd 5b 37 7b d3 80 0f 2c f2 89 ab 1b ;99.8125
+99;This is fun!;30 04 78 dd 95 f2 cd 1a a7 40 7c 95 3f 37 c4 be ;
+100;I love the beach.;a7 e2 d2 47 4f 56 7f 26 ca a7 48 8a 4a 30 b8 b2 14 bc e9 9e 25 e8 21 e6 de 96 15 e1 0f 55 47 8c ;49.75
+100;I love the beach!;a7 e2 d2 47 4f 56 7f 26 ca a7 48 8a 4a 30 b8 b2 6c 1d 9d 28 c7 ea f5 30 93 de f7 95 da 15 bd 95 ;
+101;Let's go swimming.;8d d6 5f 69 a2 fe 8c 99 41 e8 92 de fb 53 8c 79 80 bd 6b e1 2a f1 55 8e 16 7a ec ad 14 67 da 38 ;49.75
+101;Let's go swimming!;8d d6 5f 69 a2 fe 8c 99 41 e8 92 de fb 53 8c 79 9b e7 3f 34 36 37 b4 5d 64 a0 63 74 f6 07 b2 7a ;
+102;What's your plan?;a1 bc ec 11 5e 17 29 a4 2b a8 3e 15 27 f2 b0 44 a1 13 e9 1d f5 f1 93 a4 90 47 d5 ad 31 95 41 71 ;49.90625
+102;What's your plan!;a1 bc ec 11 5e 17 29 a4 2b a8 3e 15 27 f2 b0 44 59 71 da ec 40 02 27 41 f4 b8 b0 8e bd 25 1c ef ;
+103;I enjoy traveling.;4e 13 96 52 34 41 61 6f 40 6e c6 57 9c c6 17 47 1a 8f 12 71 3d e8 50 29 a2 22 44 3b f7 e4 4c 93 ;49.8125
+103;I enjoy traveling!;4e 13 96 52 34 41 61 6f 40 6e c6 57 9c c6 17 47 50 60 79 0d 1a 1f 3f 5f a8 17 82 5c b6 2f 26 9e ;
+104;Let's go camping.;90 cb 8e 6e a7 b0 8c 2b ff 7f 7f 3e 49 74 e3 19 ed 0e b2 dc 09 ff ab f4 06 2e c0 1c 47 9f dd c7 ;49.78125
+104;Let's go camping!;90 cb 8e 6e a7 b0 8c 2b ff 7f 7f 3e 49 74 e3 19 0b 42 75 ba 82 c6 1f 27 24 7e d4 17 40 42 2d af ;
+105;This is exciting.;62 fd c7 69 19 62 38 f9 ac 40 57 bc 86 eb 55 56 c8 9e 68 64 db 37 dc 27 8e bf ca 8e 5e ee 77 4d ;49.78125
+105;This is exciting!;62 fd c7 69 19 62 38 f9 ac 40 57 bc 86 eb 55 56 15 0c 5d a1 98 dd 8f 9a f2 56 79 08 ab 69 32 3e ;
+106;I love my family.;d3 75 d6 d7 0e af 77 c0 2f 18 06 77 a2 c3 c8 8a a9 07 51 86 48 af ea 34 6d d5 0f 49 74 fe f2 03 ;49.6875
+106;I love my family!;d3 75 d6 d7 0e af 77 c0 2f 18 06 77 a2 c3 c8 8a 25 72 1f 75 49 5f e1 ad a2 65 95 f9 36 60 1b ba ;
+107;Let's go biking.;f4 c1 f8 33 f3 88 85 02 7f 38 6e da c0 30 26 79 4f d0 e1 ce 1e b3 15 df 6f 9d f8 e9 ea f9 88 ab ;99.65625
+107;Let's go biking!;f6 b6 ef 91 65 17 ef 11 bf 3e 59 8a ae 98 52 99 11 78 7a 1b b6 7a 68 a1 04 24 b5 e5 b1 2c af 90 ;
+108;What's your hobby?;80 59 5c 64 b3 31 8a 7b f9 07 4e b6 4d 98 a7 61 f7 49 9f b3 b5 15 f8 60 11 52 c2 33 9b b8 19 f9 ;49.6875
+108;What's your hobby!;80 59 5c 64 b3 31 8a 7b f9 07 4e b6 4d 98 a7 61 e7 4f 74 b0 24 d2 ee e0 5b ce fa e5 7d 8f c2 4f ;
+109;I enjoy painting.;00 e3 bb f6 81 53 af 5b 65 40 a7 9e a7 fa 55 2f 3f f7 42 61 df 2a dd d8 eb 7a a6 a1 46 66 3e 4a ;49.875
+109;I enjoy painting!;00 e3 bb f6 81 53 af 5b 65 40 a7 9e a7 fa 55 2f e4 0b 18 b5 63 16 57 ca db ed 19 c3 a4 1e 47 a7 ;
+110;Let's go running.;92 31 61 33 5c a1 9e 75 e1 66 e2 7a b4 54 1e 9f 3d a4 9f 53 cb b7 c8 e2 b1 82 5b 91 e0 85 cc 00 ;49.65625
+110;Let's go running!;92 31 61 33 5c a1 9e 75 e1 66 e2 7a b4 54 1e 9f ca 7b 14 53 e5 51 56 61 5e 88 09 4d 9e 59 4b 34 ;
+111;This is relaxing.;97 c6 05 ce 56 5c 32 b4 a8 65 c9 67 de 77 da 69 b1 d8 be bb b0 17 af 75 50 cf fc c8 8a c7 80 79 ;49.90625
+111;This is relaxing!;97 c6 05 ce 56 5c 32 b4 a8 65 c9 67 de 77 da 69 10 f4 10 11 d0 46 53 b7 0b 8f 06 21 99 a3 db 97 ;
+112;I love my job.;d1 67 5c 78 c2 a2 af d8 41 9b 2a 64 39 7d 2b cc ;99.5625
+112;I love my job!;e4 38 3b 62 20 2e 43 11 b4 2c db a1 25 3c 77 16 ;
+113;Let's go dancing.;ea 12 3b 50 ac 73 9c 3a f7 6f a9 b3 0b fe b5 a1 c2 ed a5 27 6b 22 6e 7a 7e 13 47 b8 d9 18 df ae ;49.90625
+113;Let's go dancing!;ea 12 3b 50 ac 73 9c 3a f7 6f a9 b3 0b fe b5 a1 84 3d 65 c9 5c 6a 27 f2 2d 9d 2c bf dc b2 f6 3a ;
+114;What's your dream?;4c bf 7d 68 34 f0 ba dc c0 01 ab 85 17 4a 93 be 3c b1 fd 45 33 56 88 e1 2e 0b 95 16 73 c1 a7 ca ;49.8125
+114;What's your dream!;4c bf 7d 68 34 f0 ba dc c0 01 ab 85 17 4a 93 be 08 d9 21 63 68 d4 3b f3 5a 2c 3f 01 6a 9b cf 2e ;
+115;I enjoy writing.;1d 61 dc 16 35 c4 4f 1c e9 0c 6e 50 7e 4c c1 4b 40 89 c6 b1 1c 2d 75 52 48 2b cf 66 8d d2 ed af ;99.6875
+115;I enjoy writing!;8e 6d 65 44 84 a8 e7 3b 07 a5 2e 4a e4 aa 5b b6 c5 8e 39 0f 86 d2 e9 88 b0 6e ad 28 b8 5e b1 e4 ;
+116;Let's go skating.;24 7a 1c 12 d7 b6 d6 45 2e cd 0c 2f 38 8e 01 c8 4c 9b 14 fb 40 32 fb bf 9d 6f 0d d2 62 60 89 e2 ;49.71875
+116;Let's go skating!;24 7a 1c 12 d7 b6 d6 45 2e cd 0c 2f 38 8e 01 c8 26 e7 f5 c3 e8 a3 05 58 67 1e 29 6c 56 8c d7 d8 ;
+117;This is inspiring.;74 c9 bd e3 85 6d 01 c0 31 ab aa ab 9d a4 f7 28 bc dd 21 da e4 3a cd 17 ef 41 75 ca 1c d6 8a 71 ;49.6875
+117;This is inspiring!;74 c9 bd e3 85 6d 01 c0 31 ab aa ab 9d a4 f7 28 85 ed aa 58 a1 09 25 2c b8 6a ba bc af c4 c7 d0 ;
+118;I love my life.;59 b3 f9 c1 fd d0 78 da df c9 2c b9 ff 92 6a 17 ;99.875
+118;I love my life!;1d 7b 8e 9d bc 51 a9 8c e0 cb de 19 b7 d8 78 9f ;
+119;Let's go surfing.;f0 13 da 38 01 99 b1 8c 7c ea ce f8 8d e7 98 80 84 50 a9 75 c8 c8 15 37 e3 65 5c 91 d3 e2 47 2f ;49.71875
+119;Let's go surfing!;f0 13 da 38 01 99 b1 8c 7c ea ce f8 8d e7 98 80 56 0c 10 f8 58 bc 7e 6b 29 41 e1 f8 fb 1f b7 25 ;
+120;What's your goal?;08 ae f8 de 95 6f e8 d7 8c 84 93 bc b3 d3 6a 5e c9 71 8f ec e9 8f e8 37 0f 82 f1 cf 90 dc 3e ca ;49.75
+120;What's your goal!;08 ae f8 de 95 6f e8 d7 8c 84 93 bc b3 d3 6a 5e b5 01 b6 0a c0 a9 a9 c1 22 2c 73 70 6b 7c 7d 74 ;
+121;I enjoy learning.;dc 7d 38 2f 22 d0 51 88 9e 9a 94 4a 62 c5 8e 9d 3c 50 2d 7c 7e 2c db b2 09 24 da 28 06 91 b2 36 ;49.71875
+121;I enjoy learning!;dc 7d 38 2f 22 d0 51 88 9e 9a 94 4a 62 c5 8e 9d 5d 2b 50 fa a5 3d 9d 7c 00 aa 6b fe 71 10 0c 7c ;
+122;I enjoy sunny days.;bc 0b cf 9a af 04 05 f5 95 4a 45 42 9e 3b 04 ee 6a 7e ca 77 50 28 67 5e 4c 84 15 e5 27 b9 b2 27 ;49.71875
+122;I enjoy sunny days!;bc 0b cf 9a af 04 05 f5 95 4a 45 42 9e 3b 04 ee 86 5d b7 bc d1 46 19 a2 c6 4e fb 0b dc 0e 10 20 ;
+123;Let's go to the island.;f7 25 81 38 9d 61 7c 2e 84 b0 91 76 9f b2 98 f3 9f d0 7f 9b fb dd 4b a7 51 f2 a8 56 84 0b 1d 94 ;49.875
+123;Let's go to the island!;f7 25 81 38 9d 61 7c 2e 84 b0 91 76 9f b2 98 f3 6c cf 59 05 f0 2d 1f af 9e e1 06 38 8c a5 8e 34 ;
+124;This is fantastic.;47 9f 5c ac ca 80 7c c6 38 97 43 05 3f 30 1a e6 88 cd 52 02 48 f3 97 d0 e7 2a 47 d1 e2 7b d5 61 ;49.625
+124;This is fantastic!;47 9f 5c ac ca 80 7c c6 38 97 43 05 3f 30 1a e6 50 c0 e3 0a db 7b 8e fa 2f 2e c6 64 d1 6f b0 3d ;
+125;I love my sunglasses.;cb 1b 3b 72 27 97 4d 7b fd fa 5d d7 4b 41 64 ad 78 dc 4a 99 51 23 1f 5d cd fc aa 19 cd 3e c5 83 ;49.71875
+125;I love my sunglasses!;cb 1b 3b 72 27 97 4d 7b fd fa 5d d7 4b 41 64 ad ba 5b ff 11 ec 5f 04 06 df 71 92 fc 13 db 47 c0 ;
+126;Let's go to the ocean.;bc 20 ec c0 7f 57 1a be 1a 9a 26 5a c0 6e 37 a8 a2 80 74 b4 cd a7 74 29 b0 03 15 71 3b 5f a9 96 ;49.65625
+126;Let's go to the ocean!;bc 20 ec c0 7f 57 1a be 1a 9a 26 5a c0 6e 37 a8 88 fc c0 07 82 5a 2f b5 77 60 b5 59 ac 54 90 cc ;
+127;What's your favorite beach?;a4 c0 e4 a7 e7 37 47 55 b1 09 eb 8b a3 55 ed 60 20 c4 13 32 aa d1 8d 39 2a 50 1a 87 41 7f 77 d9 ;49.78125
+127;What's your favorite beach!;a4 c0 e4 a7 e7 37 47 55 b1 09 eb 8b a3 55 ed 60 0a e9 c9 1c 9a 7a ff 52 ba 7f 58 61 9a e6 6f 6f ;
+128;I enjoy the waves.;ff b8 16 77 d9 9d c0 4b 87 f8 ba 80 f1 36 9b 87 39 2e 12 81 27 01 ff 66 33 76 89 18 b0 84 ed 5f ;49.6875
+128;I enjoy the waves!;ff b8 16 77 d9 9d c0 4b 87 f8 ba 80 f1 36 9b 87 2f 1d 42 28 06 91 9f 5c ed 14 b0 f2 d2 d7 3e 22 ;
+129;Let's go to the pier.;ed 8d ee 51 39 68 0b 59 87 5b 1d 76 5f ae 47 ef fc 08 75 6f 87 03 0a 90 a5 11 b6 48 c2 93 03 81 ;49.90625
+129;Let's go to the pier!;ed 8d ee 51 39 68 0b 59 87 5b 1d 76 5f ae 47 ef 45 b6 0c f0 f0 fd 9c 94 f6 cb dc 90 17 96 f7 11 ;
+130;This is incredible.;90 dc 98 7e 84 0b 7c 87 67 ce f8 b5 db 4d b9 70 e3 16 9e 8d 1d 0a d9 c5 8a be 3a c0 e9 d7 79 ca ;49.78125
+130;This is incredible!;90 dc 98 7e 84 0b 7c 87 67 ce f8 b5 db 4d b9 70 a0 cb b2 e2 a0 e9 b4 65 b0 18 3b 90 f6 c6 82 71 ;
+131;I love my flip-flops.;a3 ec 45 f2 03 fa 18 95 80 51 cd e6 8e 7f 7f 7b 8e a1 5a 36 44 31 f7 48 e1 04 11 c5 71 f7 c4 b7 ;49.875
+131;I love my flip-flops!;a3 ec 45 f2 03 fa 18 95 80 51 cd e6 8e 7f 7f 7b 67 98 43 ec 5a 19 e3 3f db 22 e3 f6 cf e2 5b 0d ;
+132;Let's go to the boardwalk.;69 ec b2 24 a6 b5 8a 2b 77 43 57 6c 77 cf a9 ab 7d 4f 66 45 8c 64 26 3f 07 d0 4f cc 0e d4 58 d3 ;49.75
+132;Let's go to the boardwalk!;69 ec b2 24 a6 b5 8a 2b 77 43 57 6c 77 cf a9 ab 94 38 8f 54 8b 9c e4 48 e1 b5 0a 5f 3e 81 38 9a ;
+133;What's your favorite activity?;12 73 cd 3f e2 b3 bf c1 a3 f8 45 7e be 91 8e 06 87 89 c1 f3 ea ef b7 0e 3f da 78 73 44 ea 18 b1 ;49.84375
+133;What's your favorite activity!;12 73 cd 3f e2 b3 bf c1 a3 f8 45 7e be 91 8e 06 81 6e 7c f4 0c 7c 77 9f 81 ab 7d b6 3f a3 d9 af ;
+134;I enjoy swimming.;7a 89 1d f9 aa 21 ad 90 92 a2 e4 e9 6b 25 0c 24 f9 27 21 3c 05 2b 23 64 66 17 2e a0 40 99 9e 46 ;49.6875
+134;I enjoy swimming!;7a 89 1d f9 aa 21 ad 90 92 a2 e4 e9 6b 25 0c 24 07 d9 bc 93 8d 1c 4f 14 10 e5 e2 be 44 49 26 a3 ;
+135;Let's go to the waterpark.;67 ba 07 54 e4 0b d6 1f c2 04 bc 44 19 72 1a 11 cc e7 bc 26 61 e8 c8 12 51 8b a4 07 b4 6d 1e 40 ;49.8125
+135;Let's go to the waterpark!;67 ba 07 54 e4 0b d6 1f c2 04 bc 44 19 72 1a 11 c6 15 ae f6 b4 92 5e 1e 06 97 84 21 c7 8a a5 77 ;
+136;Hello world!;2e 05 1e fd 37 ef 7f f5 87 18 1d f8 6d d5 9c 24 ;99.3125
+136;H3ll0 w0rld!;33 fa fa 20 1b dd 3d d1 c6 9d f8 d0 99 0b 4f 0c ;
+137;This is a test.;7a 63 d2 ee e9 6a 55 e3 5e 93 6b 5b 3d 71 67 1e ;99.5
+137;Th1s 1s @ t3st.;f2 11 e9 67 ba 0f 74 3c e9 29 fb 27 c7 cc 1f c1 ;
+138;I love coding.;cf 7e 8e 0c 46 8f 15 a5 f2 ab 6c d1 bc a7 10 2f ;99.6875
+138;1 l0v3 c0d1ng.;99 27 cc 62 63 b2 fb 98 47 03 8a 0e 57 15 0b 03 ;
+139;Let's go hiking.;6c 1c 91 35 74 4d 7c 3a d5 eb e9 e9 7a 16 65 79 c0 60 a0 db c5 a0 d0 09 6f e1 6f 52 47 77 69 be ;99.375
+139;L3t's g0 h1k1ng.;bc 1c b0 1f 58 a8 66 5f 75 cc 40 8b dd 26 37 61 48 a9 bc 3a 35 f5 04 fc 9f c9 19 b0 01 8a 0a 35 ;
+140;What's your name?;88 07 03 49 55 5b 01 a7 50 42 df 60 51 f2 5e 84 00 49 69 d6 22 e8 cf e3 b3 80 47 8a 0b 21 bd 06 ;99.78125
+140;Wh@t's y0ur n@m3?;b4 5d 09 8a 0e e3 eb b9 12 15 96 13 aa a2 3a 8b fa ac 69 14 07 39 52 c3 35 f4 09 0f 70 50 67 20 ;
+141;It's a sunny day.;63 05 1f 26 9d 1b 0e b3 b1 39 3b f6 f1 9e 43 f5 b1 d4 28 6f 3e 07 5e 4a 75 e5 f6 28 5d d2 24 ba ;99.5
+141;1t's @ s0nn3 d@y.;ec 79 75 9f 7a 31 87 c9 33 89 3b 9b cc 69 56 0c dc f6 a2 9f 59 80 55 67 40 b9 8f ec 59 fa 27 79 ;
+142;Do you like pizza?;0b 4a 47 85 2b 76 30 6e 4c 4c 98 89 a2 88 00 6f 6f e5 28 5f da ab 2a 1f 89 ed eb a0 fb f8 86 83 ;99.375
+142;D0 y0u l1k3 p1zz@?;68 44 63 24 83 3b 4f 26 12 dc da 6b 84 ef 20 7d 41 1b cf d9 dc 25 3b bb 82 1e ab 27 57 40 77 60 ;
+143;I enjoy reading.;8f d0 24 01 15 94 26 43 91 eb 05 7d 27 c4 94 2c 9b bf 77 52 3f 31 5a 79 cd 5d 59 18 37 fe f8 d8 ;99.5625
+143;1 3nj0y r3@d1ng.;6c 6c c3 18 f7 9f 0b 25 a3 51 0d ce b0 a1 08 5f f4 cc 80 54 e0 56 68 9f d1 5a 8f c2 04 9a 02 c3 ;
+144;Let's watch a movie.;de 17 8f 89 56 dd f5 6c 47 b1 9b 0e 67 b4 05 95 b6 db 8b 1c a4 cd 14 1f 30 e3 1d b8 6d 6d 2b ec ;99.5
+144;L3t's w@tch @ m0v13.;24 74 83 0a 3c cb bd 71 19 77 c6 a0 4e 4f 4d a3 df 8e 27 aa ba fd 06 05 b8 74 50 01 c2 03 47 bc ;
+145;This is amazing.;86 ce c0 0b fc b9 b7 d9 eb 27 6a 92 8f ba b2 dc 0e 5a 02 f1 e7 7c e5 1b 6d 25 58 2e de 55 65 e9 ;99.46875
+145;Th1s 1s @m@z1ng.;7a 0b 66 f7 42 b2 fc ec bd eb ef 33 e7 db a4 f6 9b c7 ce 7b 7d 0b 05 e0 1d 04 46 be 74 8d 88 e6 ;
+146;The quick brown fox.;c5 89 81 db 36 86 34 1f a8 9d bf 73 82 dd 11 c1 c4 54 a7 a7 25 f4 cc 1a 76 78 52 1b 41 dc a3 c8 ;99.625
+146;Th3 qu1ck br0wn f0x.;ff 03 b3 0b e1 83 c5 67 9b 0b 8f 6e f5 58 54 4e 60 9d 2e 7c e0 79 b1 81 a7 31 ab b2 38 e0 f1 9c ;
+147;Jumped over the lazy dog.;6a 59 75 bb fa d2 20 ad cf 06 8f 44 30 22 51 e0 81 ca ba c2 e1 de 9c 41 d1 c3 96 2c 84 b5 62 17 ;99.78125
+147;JumpeD 0v3r th3 l@zy d0g.;50 aa 92 cc 9f 76 51 da c0 26 1b e2 ca db e4 5e 35 a2 b3 42 e3 b0 c6 ac 88 7f 9f fc 4e 61 d2 b6 ;
+148;Programming is fun!;bc 44 4d ea ba cf a3 4f f9 b8 99 a7 f1 ac 6f a9 92 94 92 ff ac be 69 f4 0d e6 b6 51 b6 9e 8f 45 ;99.6875
+148;Pr0gr@mm1ng 1s f@n!;98 90 59 39 da bb 7a 35 03 5b 82 41 1d 5a 5f c2 29 88 e8 83 4b 75 fc 96 04 53 54 ba fa b9 a0 40 ;
+149;Artificial intelligence.;4b 50 88 fa f0 cc 77 e5 60 ac 79 05 b0 48 c4 d5 d4 13 7e 9d fd 64 7b 2e 1d 9b bc 2f d6 bb be fa ;99.65625
+149;@rt1f1c1@l 1nt3ll1g3nc3.;55 f3 ea e9 94 6d 3e 96 65 c2 0b 95 6c cb 9a c0 77 d8 3a 7f 70 92 02 66 5f a2 89 d7 22 0e 9f 4d ;
+150;Data science rocks!;cf 07 7a b5 4f cb fd 3b e5 fe 4d 9d cc a5 70 84 ac 23 91 4f 15 dc 65 f4 5d 11 9f 3c 3a 38 82 a6 ;99.6875
+150;D@t@ sc13nc3 r0cks!;a6 68 f5 9b a8 56 b0 7a 8c 1d c4 d2 7e 9e 3e 6a 64 43 b8 9c 82 1e 9e 0c 9d 2a c2 a7 20 88 43 c5 ;
+151;Machine learning is cool.;3e 47 83 3c 08 45 96 d2 73 79 a8 b4 db 18 e2 7a 48 3d 84 50 ec 14 1d a7 d2 df 2f 7c 91 18 2a 9a ;99.71875
+151;M@ch1n3 l3@rn1ng 1s c00l.;64 2b 93 71 8a da 94 0f 68 4b 2a a0 bc 73 b4 ae 27 c4 64 f1 cc ca 54 e5 89 0a 69 08 6e a9 42 bd ;
+152;Python is awesome.;12 23 00 87 01 7e ec 5b 65 dc be 27 e2 34 31 29 76 ba db cc 1c ff 90 50 53 62 c8 9c 1f 8a c4 5f ;99.53125
+152;Pyth0n 1s @w3s0m3.;07 c4 dc 32 35 2e 2f c0 dd 62 2c 91 44 01 74 b9 b9 2e 31 d9 68 41 59 25 de 2f cc fc 2e 42 24 4f ;
+153;JavaScript is powerful.;9b 4a e7 ec dd 98 fc 31 96 a2 68 3d 98 77 fc d3 39 04 73 7e 02 95 e4 c5 95 72 39 51 96 e3 59 56 ;99.53125
+153;J@v@Scr1pt 1s p0w3rful.;f3 a9 89 84 47 49 13 ea b7 d3 f6 29 7f cb fa ce 40 7e 54 b8 2a 88 fd a5 47 87 ea 1c 33 61 36 c9 ;
+154;OpenAI is amazing.;d1 07 a7 fd c0 e9 8d 20 02 36 1b 93 36 90 d0 c0 dc 32 b6 6e d1 12 87 f1 73 a4 86 2f 00 7d c0 96 ;99.5
+154;0p3n@1 1s @m@z1ng.;65 9c 56 bc 76 58 f5 31 c5 d1 9b aa 7f 45 c7 de a8 9a 44 6b 4f 2d b1 b6 43 89 9f b8 95 70 0f 8f ;
+155;Deep learning is fascinating.;73 75 05 b4 96 e2 82 ee af 2f 01 30 44 66 8f 2a 25 9f 82 95 f8 3d 83 8e 42 f9 a9 23 06 3e b6 7a ;99.625
+155;D33p l3@rn1ng 1s f@sc1n@t1ng.;0e a5 6b 9d 6b a5 78 62 ea 0a 8a 5e 3b af 12 e3 d6 1e f1 92 5f 60 53 c8 23 c6 70 16 99 6e ef 2a ;
+156;Neural networks are complex.;72 d0 43 73 6b 45 de b3 b3 a2 5c 47 18 cb 2f 1a d5 07 21 93 1e 29 09 47 73 8c 99 72 81 52 65 f5 ;99.5
+156;N3ur@l n3tw0rks @r3 c0mpl3x.;16 55 a0 f7 19 d4 19 05 57 55 67 90 5a 25 b4 ad 74 37 a2 55 6a c6 1b 95 b9 b2 61 49 d3 54 b4 c5 ;
+157;Big data is the future.;ad f5 99 76 4f 56 85 f9 5b 8c 65 28 d5 21 8b 82 b4 58 04 bd dc 9a c5 4c c2 24 45 e2 7a cc 0d 3d ;99.4375
+157;B1g d@t@ 1s th3 f@tur3.;50 c4 98 53 2b 97 52 e2 73 e4 f2 f4 1b b3 a3 1f 20 8c a1 2f fe 89 da 5f fc 1b 7a e1 0b 66 89 f0 ;
+158;Cloud computing is scalable.;4b 1e b1 71 c3 4e 57 12 c0 c4 51 a2 94 9c 80 d5 a9 30 86 80 0c b1 c1 e1 24 be e3 2c 56 d4 2e f4 ;99.625
+158;Cl0ud c0mput1ng 1s sc@l@bl3.;67 ff 19 e1 37 35 a1 50 72 ab 3a 27 00 77 60 ce 9f 10 9d 0b e1 ce 81 63 e8 b7 06 4b 46 2a 00 e5 ;
+159;Cybersecurity is critical.;9e 64 46 f8 00 c7 ae 07 90 b1 5d a8 88 c6 78 5d 00 ed f7 f2 26 6a 10 a6 d5 7a 7e cc 2c 17 d5 54 ;99.625
+159;Cyb3rs3cur1ty 1s cr1t1c@l.;f9 5f fa 84 b3 c8 2e e8 2b 3e 44 7e e9 7e ff aa 50 32 20 ad 08 90 3a 97 d1 5c 56 c1 c8 70 89 95 ;
+160;Blockchain is revolutionary.;bc c9 0b fc d2 df 45 0c bd 81 7d 28 9b d4 31 a2 d0 b0 bb be 5d 33 ba 24 f0 fe a1 51 ee c0 9e 95 ;99.625
+160;Bl0ckch@1n 1s r3v0lut10n@ry.;28 a3 20 d8 c2 24 5a 56 67 cf d7 75 d0 c2 ce ce d7 86 f3 c6 54 e3 60 3f 33 c8 ae f3 dc 21 6a cf ;
+161;Quantum computing is complex.;75 91 05 a1 1a b8 1b e9 e0 60 e3 40 f2 73 9e 67 d6 08 07 7c 3f 62 11 d7 5f 41 58 66 8d 5b c6 80 ;99.65625
+161;Qu@ntum c0mput1ng 1s c0mpl3x.;1e ca 9e 75 bd 0a f9 39 f9 f3 91 0a 60 ae 94 77 37 c8 cd 05 fe 92 e5 7a 42 b8 3d 07 a3 2c 00 20 ;
+162;Virtual reality is immersive.;dc 36 53 90 5e 9e 3e 55 85 63 78 5a 54 a9 b2 e0 3e 7e b9 6a f9 9a 2c 89 f6 23 6d 1b db 18 4a cf ;99.59375
+162;V1rtu@l r3@l1ty 1s 1mm3rs1v3.;89 27 57 49 31 6b f7 96 94 6d a9 c8 82 04 14 be 5d 2b 94 62 ae 17 7d 11 f0 d7 37 47 76 02 79 d2 ;
+163;Augmented reality is cool.;3a 15 04 0b d7 f1 fb 74 4b fa b2 3c be 0e b3 5f 52 72 be 34 54 97 0e fd 18 43 94 a6 0b dc a1 dc ;99.6875
+163;@ugm3nt3d r3@l1ty 1s c00l.;ee 28 46 be 06 34 60 6c e9 89 db c6 61 f1 25 a2 d9 f7 fa d5 3b 76 95 ec 44 ae 5a 00 d0 fc 10 f7 ;
+164;Robotics is the future.;3c 99 6c 27 5b a2 6d 34 42 5c b1 72 86 38 46 7e bd d5 eb ca c7 4a 50 e4 d9 70 5c 36 04 ff 80 9c ;99.78125
+164;R0b0t1cs 1s th3 f@tur3.;f3 c1 32 2e c6 5a a5 e1 6e bb 32 19 8f 0a c8 d0 de 3b b4 e2 1e 05 51 fe ba d1 83 d4 34 76 cb 0c ;
+165;Internet of Things is growing.;59 8b 09 3d 58 6a dd c3 fe 68 d4 ad 76 0c 91 9e 53 e6 b1 d0 db 63 f7 bc 33 03 5e b7 9a 01 02 41 ;99.59375
+165;1nt3rn3t 0f Th1ngs 1s gr0w1ng.;94 07 42 71 9d 66 6b a3 92 84 71 30 94 84 5c 19 5b d4 4e 92 52 b6 f8 68 f6 d3 90 06 88 1c aa 24 ;
+166;5G technology is fast.;d0 d3 91 bf 3a fb 28 4f af 36 16 de dc 41 62 59 6f c1 74 ac 0b 03 2d cb 45 0c e5 fc 56 ef 90 14 ;99.75
+166;5G t3chn0l0gy 1s f@st.;80 4b 85 62 66 e8 97 aa 17 fa cc cf 84 17 8c de a3 99 47 4b cd 8e 0e bf 47 f1 45 5d 71 eb ee 55 ;
+167;Edge computing is efficient.;18 e5 0c c9 19 43 c0 b7 f9 42 9c ad 56 e4 de 22 1d 85 36 d9 98 f2 18 2b 10 81 b4 40 6d f3 db d2 ;99.5
+167;3dg3 c0mput1ng 1s 3ff1c13nt.;06 3c 21 5d 12 64 1e e5 dd 95 1a a6 0a 55 cf 2c 01 9b 9c ce d0 73 42 07 ff 71 41 db 41 9a ff c6 ;
+168;DevOps is essential.;8f 66 a0 56 ab 15 2a 37 0f 30 70 8c 33 2b 11 a8 7a 82 d4 ed 5d 74 74 60 28 6a 8b 97 e3 86 94 43 ;99.5625
+168;D3v0ps 1s 3ss3nt1@l.;e6 ce 8a d6 23 bc 5d 9e af fa b9 f8 26 a8 83 61 55 54 9f 8c 88 7e 91 df c2 1f a2 50 78 ef 98 cd ;
+169;Microservices are scalable.;10 5f 6e 2d e3 22 4e 07 2c 87 2c ac 43 71 11 97 98 a1 00 2f 88 6d ff ad 91 2a 89 f8 05 71 c7 24 ;99.6875
+169;M1cr0s3rv1c3s @r3 sc@l@bl3.;69 d2 d1 43 ea 08 f5 07 38 c9 36 1e 07 19 65 1f a9 92 6d c6 aa 46 8c 98 a1 ca a0 dd 64 06 0d a3 ;
+170;Containers are lightweight.;ab 49 d0 9a 8a 36 21 c8 f2 f0 f6 14 80 d4 0d 69 15 46 c5 08 41 d5 e1 cf bd 28 ce 1c 85 ac e1 33 ;99.5625
+170;C0nt@1n3rs @r3 l1ghtw31ght.;ad 0d 06 0e 2e e7 d0 11 34 3b 91 f0 de 8f 51 92 a4 3f d6 a1 60 c1 76 1c 53 cc ce cb 67 90 82 29 ;
+171;Kubernetes is powerful.;72 c7 7a 02 3a 9a b4 f4 b3 a5 ca 9a 70 6e b2 75 59 4b e5 f9 21 81 b4 e1 8e 47 5f aa 5b 34 06 47 ;99.59375
+171;Kub3rn3t3s 1s p0w3rful.;dd 96 0d fc 56 e8 65 c7 2f 29 f8 02 96 05 e1 e9 72 5c 23 e4 93 71 09 bf 57 fe fc 64 ba c1 d5 35 ;
+172;Serverless is the future.;dd 75 f1 41 26 77 90 d8 50 d7 95 a7 ae d2 59 a2 31 6d 34 60 e8 f9 99 72 38 a5 13 81 a8 a4 5e a6 ;99.5625
+172;S3rv3rl3ss 1s th3 f@tur3.;6e 84 33 4e 26 b4 84 fb 3a 05 49 a6 2e d9 82 85 49 3b 7b f7 8d 15 49 67 d9 50 63 7b d7 01 16 97 ;
+173;AI is transforming industries.;1c 9f 54 70 a0 79 d0 88 13 02 ca 93 c7 97 01 88 ca 24 e4 48 b6 97 de 8c eb 54 31 70 32 9b 05 f6 ;99.65625
+173;@1 1s tr@nsf0rm1ng 1ndustr13s.;49 81 73 3b 0a 22 cd ef 69 c5 ba f0 29 1d de ae 1d 20 83 c2 be 41 45 95 25 de c1 38 e7 6b 0a af ;
+174;Natural language processing.;c4 fa 6c 98 fd 6e ef c9 d1 48 30 2e 8c 62 3e 33 f1 e7 fa 3b 87 b9 bd bd 54 37 4a 0a 31 02 ad bd ;99.46875
+174;N@tur@l l@ngu@g3 pr0c3ss1ng.;37 33 a1 dd 04 ee 1e 71 f6 5d 4c 26 7d a4 c2 3e bc 60 e1 57 39 fb 6c 4d fb 00 17 95 c9 01 f7 8f ;
+175;Computer vision is amazing.;ea 69 2e 2d bb 46 16 fb d0 3d 6c 34 61 ce 85 68 84 58 24 25 bc 1c 0b c1 13 4f e8 58 c2 65 80 71 ;99.59375
+175;C0mput3r v1s10n 1s @m@z1ng.;e5 58 76 0f f6 f7 27 e8 da 79 5b d9 81 91 f9 85 61 7f 19 2d cf a8 fb 78 d6 a3 42 2e 13 f9 53 41 ;

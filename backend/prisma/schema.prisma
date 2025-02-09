@@ -1,0 +1,94 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             BigInt       @id @default(autoincrement())
+  username       String       @unique @db.VarChar(255)
+  fullname       String       @db.VarChar(255)
+  password       String
+  public_key     String
+  private_key    String
+  iv_private_key String
+  dkf_salt       String
+  dkf_iter       Int          @db.SmallInt
+  dkf_algo       String       @db.VarChar(50)
+  dkf_key_size   Int          @db.SmallInt
+  created_at     DateTime     @default(now())
+  updated_at     DateTime     @default(now()) @updatedAt
+  chats          ChatMember[]
+  sent_messages  Message[]    @relation("sender_message_relation")
+
+  seen_messages SeenMessages[]
+
+  @@map("users")
+}
+
+model Chat {
+  id         BigInt       @id @default(autoincrement())
+  chat_type  ChatType     @default(PERSONAL)
+  metadata   String?
+  created_at DateTime     @default(now())
+  updated_at DateTime     @default(now()) @updatedAt
+  members    ChatMember[]
+  messages   Message[]
+
+  @@map("chats")
+}
+
+model Message {
+  id           BigInt             @id @default(autoincrement())
+  chat_id      BigInt
+  sender_id    BigInt
+  content      String
+  metadata     String?
+  content_type MessageContentType @default(TEXT)
+  created_at   DateTime           @default(now())
+  updated_at   DateTime           @default(now()) @updatedAt
+  chat         Chat               @relation(fields: [chat_id], references: [id])
+  sender       User               @relation("sender_message_relation", fields: [sender_id], references: [id])
+
+  seen_by SeenMessages[]
+
+  @@map("messages")
+}
+
+model ChatMember {
+  user_id    BigInt
+  chat_id    BigInt
+  created_at DateTime @default(now())
+  updated_at DateTime @default(now()) @updatedAt
+  chat       Chat     @relation(fields: [chat_id], references: [id])
+  user       User     @relation(fields: [user_id], references: [id])
+
+  @@id([user_id, chat_id])
+  @@map("chat_members")
+}
+
+model SeenMessages {
+  user_id    BigInt
+  message_id BigInt
+
+  created_at DateTime @default(now())
+  updated_at DateTime @default(now()) @updatedAt
+  message    Message  @relation(fields: [message_id], references: [id])
+  user       User     @relation(fields: [user_id], references: [id])
+
+  @@id([user_id, message_id])
+  @@map("seen_messages")
+}
+
+enum ChatType {
+  PERSONAL
+}
+
+enum MessageContentType {
+  TEXT
+  IMAGE
+  DOCUMENT
+}
