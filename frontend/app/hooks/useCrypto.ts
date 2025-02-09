@@ -1,4 +1,4 @@
-import ecdh from 'ecdh';
+import * as ecdh from '@/app/libs/crypto/ecdh/index';
 import {
   encryptConversation
 } from "../libs/conversation/utils";
