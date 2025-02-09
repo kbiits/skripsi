@@ -317,6 +317,7 @@ export class ECCurveFp {
     a: any;
     b: any;
     infinity: ECPointFp;
+    reducer: any;
 
     constructor(q: any, a: any, b: any) {
         this.q = q;
@@ -378,7 +379,7 @@ function curveFpDecodePointHex(this: ECCurveFp, s: string) {
         case 2:
         case 3:
             // point compression not supported yet
-            return null;
+            throw new Error("unsupported point compression");
         case 4:
         case 6:
         case 7:
@@ -393,7 +394,7 @@ function curveFpDecodePointHex(this: ECCurveFp, s: string) {
             );
 
         default: // unsupported
-            return null;
+            throw new Error("unsupported first byet fp decode point hex")
     }
 }
 

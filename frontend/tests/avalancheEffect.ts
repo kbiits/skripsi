@@ -7,7 +7,7 @@ import { arrayBufferToHexist, generateRandomIV } from '@/app/libs/crypto/util.js
 import testdata from './testing_data2.json';
 import { createObjectCsvWriter } from 'csv-writer'
 
-const outputPath = './result2.csv'
+const outputPath = './result-newtest.csv'
 const blueText = (m: string) => `\x1b[36m${m}\x1b[0m`
 
 function stringToHex(str: string) {

@@ -153,8 +153,8 @@ export class PrivateKey {
         }
     }
 
-    public static generate(curve: X9ECParameters, r: BigInteger) {
-        r = new BigInteger(r || generateR(curve));
+    public static generate(curve: X9ECParameters, r: BigIntJSBN) {
+        r = new BigIntJSBN(r || generateR(curve));
 
         const n1 = curve.getN().subtract(BigInteger.ONE);
         const priv = r.mod(n1).add(BigInteger.ONE);
@@ -235,7 +235,7 @@ var DER_SEQUENCE = 0x30,
 function hexToBuffer(hex: any): Buffer {
     if (hex.length % 2 === 1) hex = "0" + hex;
 
-    return Buffer.allocUnsafe(hex, "hex");
+    return Buffer.from(hex, "hex");
 }
 
 function zeroBuffer(hex: string, bytes: number): Buffer {
@@ -255,17 +255,14 @@ function fillBuffer(hex: string, bytes: number, buf: Buffer, start: number): Buf
 }
 
 // generate K value based on RFC6979
-function deterministicGenerateK(hash, key, algorithm, length) {
-    let v = Buffer.allocUnsafe(length),
-        k = Buffer.allocUnsafe(length);
+function deterministicGenerateK(hash: crypto.BinaryLike, key: any, algorithm: string, length: number) {
+    let v: any = Buffer.allocUnsafe(length).fill(1),
+        k: any = Buffer.allocUnsafe(length).fill(0);
 
-    v.fill(1);
-    k.fill(0);
-
-    var hmac = crypto.createHmac(algorithm, k);
+    let hmac = crypto.createHmac(algorithm, k);
     hmac.update(v);
-    hmac.update(Buffer.allocUnsafe([0]));
-    hmac.update(key);
+    hmac.update(Buffer.allocUnsafe(1).fill(0) as any);
+    hmac.update(new Uint8Array(key));
     hmac.update(hash);
     k = hmac.digest();
 
@@ -275,7 +272,7 @@ function deterministicGenerateK(hash, key, algorithm, length) {
 
     hmac = crypto.createHmac(algorithm, k);
     hmac.update(v);
-    hmac.update(Buffer.allocUnsafe([1]));
+    hmac.update(Buffer.allocUnsafe(1).fill(1) as any);
     hmac.update(key);
     hmac.update(hash);
     k = hmac.digest();
@@ -292,11 +289,11 @@ function deterministicGenerateK(hash, key, algorithm, length) {
 }
 
 function serializeSig(r: any, s: any) {
-    var rBa = hexToBuffer(r.toString(16), "hex");
-    var sBa = hexToBuffer(s.toString(16), "hex");
+    var rBa = hexToBuffer(r.toString(16));
+    var sBa = hexToBuffer(s.toString(16));
 
-    var buf = Buffer.allocUnsafe(6 + rBa.length + sBa.length),
-        end = buf.length - sBa.length;
+    var buf: any = Buffer.allocUnsafe(6 + rBa.length + sBa.length),
+        end: any = buf.length - sBa.length;
 
     buf[0] = DER_SEQUENCE;
     buf[1] = buf.length - 2;

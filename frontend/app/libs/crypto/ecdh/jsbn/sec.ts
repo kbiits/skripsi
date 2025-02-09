@@ -14,7 +14,7 @@ export class X9ECParameters {
     n: any;
     h: any;
 
-    constructor(curve: ECCurveFp, g: ECPointFp, n, h) {
+    constructor(curve: ECCurveFp, g: ECPointFp, n: any, h: any) {
         this.curve = curve;
         this.g = g;
         this.n = n;

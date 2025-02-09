@@ -1,10 +1,10 @@
 import AES from '@/app/libs/crypto/aes/aes';
 import { generateRandomIV } from '@/app/libs/crypto/util';
 import { createObjectCsvWriter } from 'csv-writer';
-import ecdh, { PublicKey } from 'ecdh';
+import * as ecdh from '@/app/libs/crypto/ecdh/index';
 import testdata from './testing_data3.json';
 const ecdhCurveString = 'secp256r1';
-const outputPath = './result-time3.csv'
+const outputPath = './result-time-newtest.csv'
 
 type encryptResult = {
     diff: [number, number],
@@ -45,7 +45,7 @@ const decrypt = (encrypted: encryptResult, key: Uint8Array): decryptResult => {
     }
 }
 
-const deriveSharedSecret = (privateSender: any, publicReceiver: PublicKey) => {
+const deriveSharedSecret = (privateSender: any, publicReceiver: ecdh.PublicKey) => {
     const start = process.hrtime();
     const sharedSecret = privateSender.deriveSharedSecret(publicReceiver);
     return {
